@@ -83,7 +83,7 @@ starlight-tabs:where(.astro-esqgolmp){display:block}.tablist-wrapper:where(.astr
 <h4 id="model-describtions">Model describtions</h4>
 <ul>
 <li>
-<p>GPT-4o (OpenAI): This is OpenAI’s latest flagship model, known for its multimodal capabilities (handling text, audio, and image input/output in real-time) and impressive speed. It’s designed for highly interactive applications.</p>
+<p>GPT-4o 4.1 (OpenAI): This is OpenAI’s latest flagship model, known for its multimodal capabilities (handling text, audio, and image input/output in real-time) and impressive speed. It’s designed for highly interactive applications.</p>
 </li>
 <li>
 <p>Claude 4 Sonnet / Opus (Anthropic): Anthropic’s Claude series, especially the Opus variant, is highly regarded for its strong reasoning abilities, long context windows, and focus on safety and ethical AI. Sonnet offers a good balance of speed and performance.</p>
@@ -92,27 +92,30 @@ starlight-tabs:where(.astro-esqgolmp){display:block}.tablist-wrapper:where(.astr
 <p>Gemini 2.5 Pro (Google DeepMind): Google’s Gemini models are powerful, multimodal, and excel in complex reasoning tasks, coding, and long-form understanding. Gemini 2.5 Pro is particularly strong for deep research and handling large input content.</p>
 </li>
 <li>
-<p>Llama 3.3 (Meta AI): Meta continues to lead in the open-source LLM space with its Llama series. Llama 3.1 is highly capable, offers strong multilingual performance, and is widely accessible for developers to fine-tune and use locally.</p>
+<p>Llama 4 (Meta AI): Meta continues to lead in the open-source LLM space with its Llama series. Llama 3.1 is highly capable, offers strong multilingual performance, and is widely accessible for developers to fine-tune and use locally.</p>
 </li>
 <li>
 <p>DeepSeek R1 (DeepSeek): DeepSeek has gained significant attention for its cost-efficient and performant reasoning LLMs. DeepSeek R1, an open-source model, has shown competitive performance on reasoning benchmarks, particularly in structured thinking.</p>
 </li>
 <li>
-<p>Mistral Large 2 (Mistral AI): Mistral AI is a prominent European player in the LLM space, known for efficient and powerful models. Mistral Large 2 offers cutting-edge performance in coding, problem-solving, and analytical tasks, and is often a go-to for self-hosted deployments.</p>
+<p>Mistral (Mistral AI): Mistral AI is a prominent European player in the LLM space, known for efficient and powerful models. Mistral Large 2, Medium 3 offers cutting-edge performance in coding, problem-solving, and analytical tasks, and is often a go-to for self-hosted deployments.</p>
 </li>
 <li>
 <p>Qwen 3 (Alibaba): Alibaba’s Qwen series is a strong contender, particularly for its advancements in the Asian market. Qwen 3 (and its variations) offers high expertise in mathematical problems, logical reasoning, and often includes multimodal capabilities.</p>
+</li>
+<li>
+<p>Grok 4 Grok 4 is xAI’s latest reasoning model with a 256k context window. It supports parallel tool calling, structured outputs, and both image and text inputs. Note that reasoning is not exposed, reasoning cannot be disabled, and the reasoning effort cannot be specified. Pricing increases once the total tokens in a given request is greater than 128k tokens.</p>
 </li>
 </ul>
 <h4 id="current-free-models">Current Free Models</h4>
 <p>As an part of the Gnoppix Membership, you can use those models (with the 1000 query limit a day) for free .</p>
 <ul>
 <li>
-<p>deepseek-r1-0528
+<p>Deepseek-r1-0528
 DeepSeek R1 is here: Performance on par with OpenAI o1, but open-sourced and with fully open reasoning tokens. It’s 671B parameters in size, with 37B active in an inference pass.</p>
 </li>
 <li>
-<p>deepseek-chat-v3-0324
+<p>Deepseek-chat-v3-0324
 DeepSeek V3, a 685B-parameter, mixture-of-experts model, is the latest iteration of the flagship chat model family from the DeepSeek team.
 It succeeds the DeepSeek V3 model and performs really well on a variety of tasks.</p>
 </li>
@@ -120,11 +123,10 @@ It succeeds the DeepSeek V3 model and performs really well on a variety of tasks
 <p>Mistral Small 3.2 24B
 Mistral-Small-3.2-24B-Instruct-2506 is an updated 24B parameter model from Mistral optimized for instruction following, repetition reduction, and improved function calling. Compared to the 3.1 release, version 3.2 significantly improves accuracy on WildBench and Arena Hard, reduces infinite generations, and delivers gains in tool use and structured output tasks.</p>
 </li>
-</ul>
-<p>It supports image and text inputs with structured outputs, function/tool calling, and strong performance across coding (HumanEval+, MBPP), STEM (MMLU, MATH, GPQA), and vision benchmarks (ChartQA, DocVQA).</p>
-<ul>
-<li>gemini-2.0-flash-exp
-Gemini Flash 2.0 offers a significantly faster time to first token (TTFT) compared to Gemini Flash 1.5, while maintaining quality on par with larger models like Gemini Pro 1.5. It introduces notable enhancements in multimodal understanding, coding capabilities, complex instruction following, and function calling. These advancements come together to deliver more seamless and robust agentic experiences.</li>
+<li>
+<p>Gemini-2.0-flash-exp
+Gemini Flash 2.0 offers a significantly faster time to first token (TTFT) compared to Gemini Flash 1.5, while maintaining quality on par with larger models like Gemini Pro 1.5. It introduces notable enhancements in multimodal understanding, coding capabilities, complex instruction following, and function calling. These advancements come together to deliver more seamless and robust agentic experiences.</p>
+</li>
 </ul>
 <h1 id="large-language-model-llm-performance-comparison">Large Language Model (LLM) Performance Comparison</h1>
 <p>This document provides a comparative overview of various leading Large Language Models (LLMs) from top providers, detailing their context window, maximum output, pricing, latency, and throughput. Please note that pricing and performance metrics can fluctuate as models are updated.</p>
