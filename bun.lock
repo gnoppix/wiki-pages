@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "cachyos-starlight",
+      "name": "gnoppix-starlight",
       "dependencies": {
         "@astrojs/check": "^0.9.4",
         "@astrojs/react": "^4.3.0",
