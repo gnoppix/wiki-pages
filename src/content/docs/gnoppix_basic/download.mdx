@@ -1,0 +1,133 @@
+---
+title: Downloads and Validation
+description: Download and Validation of Gnoppix ISO.
+---
+
+import { Steps, Tabs, TabItem } from '@astrojs/starlight/components';
+
+## Downloading ISO
+
+Gnoppix ISO can be obtained from the following sources:
+
+*   [SourceForge](<https://sourceforge.net/projects/gnoppixng/files/>)
+*   [Gnoppix Member Server](<https://patreon.gnoppix.com/iso/>) access require Gnoppix Member sub.
+*   [Website](<https://pool.gnoppix.org/iso>) offline too less funds
+*   [Gnoppix Beta Images](<https://beta.gnoppix.org/out/>) offline too less funds
+
+
+## Downloading PRO/ULTIMATE
+
+PRO/ULTIMATE ISO can be obtained from the following sources:
+
+*   [ULTIMATE 25](<https:///ultimate.gnoppix.com/iso>)
+*   [PRO 23](<https://cdimage.gnoppix.com/iso>)
+
+
+## Verifying ISO integrity with SHA256
+
+:::caution[WARNING]
+Always take an extra step to verify the ISOs integrity to avoid any undesired issues at installation or while creating a bootable media.
+:::
+
+**Current ISO Version:** `250204`
+
+**SHA256 Hash:** `6b6562602705da3228d9862d7016a00ca6fa482482b87fd15656f9b2793f4ef6`
+
+<Tabs>
+
+<TabItem label='Windows'>
+
+<Steps>
+
+1. Download the [file](https://mirror.gnoppix.org/out/gnoppix-desktop-linux-241221.iso.sha256) containing the SHA256 hash **(Open it with a Text Editor e.g: Notepad).**
+2. Open CMD or PowerShell as Administrator and [navigate](<https://www.wikihow.com/Change-Directories-in-Command-Prompt>) to the path where the ISO and SHA256 files are stored.
+3. Execute the following command:
+   ```powershell
+   # Example:
+   certUtil -hashfile gnoppix-desktop-linux-241221.iso SHA256
+   ```
+4. Compare the certUtil hash output to the one from the downloaded file in **Step 1.** If they match, you can proceed with the Gnoppix installation.
+
+</Steps>
+
+</TabItem>
+
+<TabItem label='Linux'>
+
+<Steps>
+
+1. Download the [file](https://mirror.gnoppix.org/out/gnoppix-desktop-linux-241221.iso.sha256) containing the SHA256 hash.
+2. Open a terminal and navigate to the directory containing the `.sha256` file and execute the following commands:
+   ```sh
+   # Example:
+   cd Downloads/
+   cat gnoppix-desktop-linux-241221.iso.sha256
+   # 6b6562602705da3228d9862d7016a00ca6fa482482b87fd15656f9b2793f4ef6
+   ```
+3. Compare the output from **Step 2** and execute the following command to check what's the current hash in the ISO file.
+   ```sh
+   # Example:
+   sha256sum gnoppix-desktop-linux-241221.iso
+   ```
+4. If the hashes from **Step 2** and **Step 3** match, you can proceed with the Gnoppix installation.
+
+</Steps>
+
+</TabItem>
+
+<TabItem label='macOS'>
+
+<Steps>
+
+1. Download the [file](https://mirror.gnoppix.org/out/gnoppix-desktop-linux-241221.iso.sha256) containing the SHA256 hash.
+2. Open a terminal and navigate to the directory containing the `.sha256` file and execute the following commands:
+   ```sh
+   # Example:
+   cd Downloads/
+   cat gnoppix-desktop-linux-241221.iso.sha256
+   # 6b6562602705da3228d9862d7016a00ca6fa482482b87fd15656f9b2793f4ef6
+   ```
+3. Compare the output from **Step 2** and execute the following command to check what's the current hash in the ISO file.
+   ```sh
+   # Example:
+   shasum -a 256 gnoppix-desktop-linux-241221.iso
+   ```
+4. If the hashes from **Step 2** and **Step 3** match, you can proceed with the Gnoppix installation.
+
+</Steps>
+
+</TabItem>
+
+</Tabs>
+
+## Verify ISO Image Authenticity (Linux)
+
+To verify the authenticity of the ISO file to be sure that the actual one has been released by the official Gnoppix development team:
+
+<Steps>
+
+1. Import the GPG key for verifying the authenticity:
+
+   ```shell
+   gpg --keyserver hkps://keys.openpgp.org --recv-key EA04DED48A72B3780909169E8F0C4802B19DD03E 
+   ```
+
+2. Download the ISO file and its `.sig` signature file and run the following command (by replacing `full_iso_name.iso` with the actual ISO filename):
+   ```shell
+   gpg --verify full_iso_name.iso.sig full_iso_name.iso
+   ```
+
+   If you get a **Good signature** output, the ISO file is genuine:
+   ```
+   pub   rsa4096 2024-11-10 [SC] [expires: 2034-11-08]
+      EA04 DED4 8A72 B378 0909  169E 8F0C 4802 B19D D03E
+   uid           [ultimate] Andreas Mueller <amu@gnoppix.com>
+   sub   rsa4096 2024-11-10 [E] [expires: 2034-11-08]
+   ```
+
+</Steps>
+
+:::danger
+If the output does not return **Good signature** string or the key ID does not match, don't use the ISO image and make sure that the downloaded image comes
+from a legitimate Gnoppix source. A bad signature could suggest that the downloaded image has been tampered with.
+:::

@@ -1,0 +1,148 @@
+---
+title: Gnoppix DNS over HTTPS  
+description: Gnoppix DoH
+---
+
+
+import ImageComponent from '~/components/image-component.astro';
+import MultipleImageComponent from '~/components/multiple-images-component.astro';
+
+   
+<br />
+   
+<ImageComponent imgsrc={import('~/assets/images/doh_https.png')} />
+
+
+------
+
+
+#### DNS: The Address Book with a Privacy Gap
+
+The Domain Name System (DNS) acts like an address book for the internet, translating user-friendly domain names (like 
+Google ) into numerical IP addresses that computers use. Designed in 1987, DNS didn't prioritize security or privacy. By default, DNS requests travel unencrypted, making them vulnerable to eavesdropping and manipulation. This means anyone can potentially see which websites you're trying to access.
+
+A famous example of this vulnerability is the case of Kevin Mitnick. He was caught by the FBI because he used unencrypted traffic. The FBI was not able to decrypt traffic, they were able to track his activity by monitoring unencrypted DNS requests within a group of people requesting DNS at that specific time, after interviewing them all, it was obvious who has the skills to do that.  While it's true that current encryption methods for data traffic are very strong and cannot be decrypted with today's technology, the future of quantum computing might change this. Quantum computers have the potential to break many current encryption methods, which could have a significant impact, especially for financial institutions. However, the development of large-scale quantum computers is likely to be delayed for some time slightly smiling face 
+
+ 
+
+#### The Great Firewall's DNS Trickery
+
+China's Great Firewall of China (GFW) exploits this weakness to censor content. Since DNS relies on a simple, unencrypted protocol, the GFW can impersonate both the user and the server to alter DNS responses. When a user tries to access a blocked website (like 
+
+Google ), the GFW can provide a fake IP address, directing the user to a different location within China instead of the real website.
+
+
+#### Securing Your DNS with DoH
+
+Just like HTTPS encrypts website traffic, DNS over HTTPS (DoH) encrypts your DNS requests. With DoH, your internet service provider (ISP) or other observers cannot see which websites you're trying to access. This adds a layer of privacy and security to our online browsing. 
+Why we run our own DoH resolver?
+
+There are already some public DNS resolvers like 1.1.1.1 and 9.9.9.9 that support DNS over HTTPS, so you can use them. Starting with Firefox version 61, you can enable DNS over HTTPS in the browser settings, which is a big progress for Internet security and privacy. Firefox uses Cloudflare resolvers (1.1.1.1) by default. However, some folks argue that this allows Cloudflare (and others) to gather information on you. They seem to have more trust in their ISP than Cloudflare. But I think if you are paranoid about privacy, you should run your own DoH resolver with your own CA or just use “our’s” so neither Cloudflare nor your ISP can spy on you. I’m pretty sure here, the government agencies have direct access to the public DNS from those popular services. I can confirm, ISP’s have the government “black boxes” installed! 
+DoH vs DoT
+
+Besides DNS over HTTPS, there’s another protocol that also aims to encrypt DNS queries. It’s called DNS over TLS (DoT). 
+
+It’s more advantageous to use DoH.
+
+- DoT operates on TCP port 853, which can be easily blocked by a national firewall.
+
+- DoH operates on TCP port 443, which is the standard port for HTTPS websites, which makes DoH super hard (almost impossible) to block, because if TCP port 443 is blocked, then nearly all HTTPS websites will also be blocked.
+
+Another advantage of DoH is that it allows web applications to access DNS information via existing browser APIs, so no stub resolver is needed.
+
+### Gnoppix Offers Free and Secure Browsing
+
+Gnoppix provides a free public service called DNS over HTTPS (DoH) which helps keep your browsing private and secure. Think of it like scrambling your online conversations so no one can eavesdrop.
+
+
+Gnoppix used to have more servers available for this service, but due to unforeseen circumstances, they had to reduce the number. However, you can still and always access the DoH server at: https://doh.gnoppix.org
+
+
+#### Using Gnoppix DoH
+
+The good news is that if you use Gnoppix Linux, you already have this secure browsing feature enabled by default. (starting Gnoppix 24.8) There's no need for you to do anything extra. Secure by default! 
+
+Important Note: Using DoH with Other Operating Systems
+
+If you use a different operating system (like Windows or Mac), Gnoppix currently only recommends using DoH through the Firefox web browser. I’ve just no manpower to support for setting up DoH on other browsers and other OS at this time.
+
+ 
+
+#### Make sure DoH is active and running: 
+
+<ImageComponent imgsrc={import('~/assets/images/doh.png')} />
+
+
+1.) type about:config 
+
+2.) type network.trr 
+
+3a.) add network.trr.custom_uri -> https://doh.gnoppix.org/dns-query 
+
+3b.) replace network.trr.default_provider_uri -> https://doh.gnoppix.org/dns-query
+
+4.) make sure it is set to 3 
+
+'3' means only open website with doh enables (always secure)
+
+anything other should not be defined slightly smiling face 
+
+for info 2 means 1st. use DOH if doh is not reachable (server down) use ‘normal’ DNS.  
+
+#### The final configuration should look like this: 
+
+<ImageComponent imgsrc={import('~/assets/images/doh2.png')} />
+
+This works on any other platform (Windows and MacOS) as well. 
+
+#### Gnoppix global DoH 
+
+ ```sh
+sudo apt install dnscrypt-proxy 
+
+wget https://media.gnoppix.org/dnscrypt-proxy.toml 
+
+sudo cp dnscrypt-proxy.toml /etc/dnscrypt-proxy/
+
+systemctl restart dnscrypt-proxy
+
+
+ ```
+
+
+ ```sh
+systemctl status  dnscrypt-proxy
+● dnscrypt-proxy.service - DNSCrypt-proxy client
+     Loaded: loaded (/usr/lib/systemd/system/dnscrypt-proxy.service; enabled; preset: disabled)
+     Active: active (running) since Wed 2025-07-02 23:30:52 EDT; 7s ago
+ Invocation: 4d00cd30b10a4dc79fe00e379f1bdcff
+       Docs: https://github.com/DNSCrypt/dnscrypt-proxy/wiki
+   Main PID: 61261 (dnscrypt-proxy)
+      Tasks: 14 (limit: 76297)
+     Memory: 12.4M (peak: 14.4M)
+        CPU: 75ms
+     CGroup: /system.slice/dnscrypt-proxy.service
+             └─61261 /usr/bin/dnscrypt-proxy --config /etc/dnscrypt-proxy/dnscrypt-proxy.toml
+
+Jul 02 23:30:52 gnoppix dnscrypt-proxy[61261]: [2025-07-02 23:30:52] [NOTICE] Now listening to 127.0.0.1:53 [UDP]
+Jul 02 23:30:52 gnoppix dnscrypt-proxy[61261]: [2025-07-02 23:30:52] [NOTICE] Now listening to 127.0.0.1:53 [TCP]
+Jul 02 23:30:52 gnoppix dnscrypt-proxy[61261]: [2025-07-02 23:30:52] [NOTICE] Source [relays] loaded
+Jul 02 23:30:52 gnoppix dnscrypt-proxy[61261]: [2025-07-02 23:30:52] [NOTICE] Source [public-resolvers] loaded
+Jul 02 23:30:52 gnoppix dnscrypt-proxy[61261]: [2025-07-02 23:30:52] [NOTICE] Firefox workaround initialized
+Jul 02 23:30:52 gnoppix dnscrypt-proxy[61261]: [2025-07-02 23:30:52] [NOTICE] Hot reload is disabled
+Jul 02 23:30:53 gnoppix dnscrypt-proxy[61261]: [2025-07-02 23:30:53] [WARNING] [doh2.gnoppix.org] does not support HTTP/2 nor HTTP/3
+Jul 02 23:30:53 gnoppix dnscrypt-proxy[61261]: [2025-07-02 23:30:53] [NOTICE] [doh2.gnoppix.org] OK (DoH) - rtt: 374ms
+Jul 02 23:30:53 gnoppix dnscrypt-proxy[61261]: [2025-07-02 23:30:53] [NOTICE] Server with the lowest initial latency: doh2.gnoppix.org (rtt: 374ms)
+Jul 02 23:30:53 gnoppix dnscrypt-proxy[61261]: [2025-07-02 23:30:53] [NOTICE] dnscrypt-proxy is ready - live servers: 1
+ ```
+
+# Manual Stamp calculation
+
+Goto -> https://dnscrypt.info/stamps/
+
+<ImageComponent imgsrc={import('~/assets/images/doh_stamp_calc.png')} />
+
+
+
+
+
