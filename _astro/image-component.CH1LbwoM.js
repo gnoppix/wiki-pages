@@ -1,1 +1,0 @@
-import{j as r,u as s,x as t,N as x}from"./index.D1D-Rr_o.js";import"./index.BhPPl6tP.js";const d=({imgsrc:e,alt:n})=>e?r.jsx(s,{overlayRender:({onClose:o})=>r.jsx(x,{onClick:o}),children:r.jsx(t,{src:e,children:r.jsx("img",{src:e,alt:n??""})})}):r.jsx("div",{children:r.jsx("p",{children:"Image not found"})});export{d as default};
