@@ -3,7 +3,6 @@ import starlight from '@astrojs/starlight';
 import react from '@astrojs/react';
 import tailwindcss from '@tailwindcss/vite';
 
-
 export const locales = {
   root: {
     label: 'English',
@@ -27,12 +26,12 @@ export default defineConfig({
       editLink: {
         baseUrl: 'https://github.com/gnoppix/wiki/edit/next/',
       },
-      social: [ 
-        {       
+      social: [
+        {
           icon: 'github',
           label: 'GitHub',
           href: 'https://github.com/gnoppix',
-        },  
+        },
         {
           icon: 'twitter',
           label: 'Twitter',
@@ -43,7 +42,7 @@ export default defineConfig({
           label: 'Discord',
           href: 'https://discord.com/invite/tmHjQmgBW9',
         },
-               ],
+      ],
       head: [
         {
           tag: 'meta',
@@ -206,7 +205,6 @@ export default defineConfig({
               link: 'features/tor-gui',
             },
 
-
             {
               label: 'DNS over https (DOH)',
               link: 'features/doh',
@@ -222,47 +220,41 @@ export default defineConfig({
               link: 'support/quickstart',
             },
 
-
             {
               label: 'AI Models',
               link: 'features/ai-models',
             },
-      
+
             {
               label: 'AI Models pricing',
               link: 'features/ai-models-price',
             },
-        
+
             {
               label: 'AI Copilot ',
               link: 'features/copilot',
             },
 
-
             {
               label: 'AI buy credits',
               link: 'features/ai-token',
             },
-        
 
             {
               label: 'AI - FAQ',
               link: 'features/ai-faq',
             },
 
-
             {
               label: 'AI API',
               link: 'features/ai-api',
-            }, 
-         
+            },
 
             {
               label: 'AI API endpoints',
               link: 'features/ai-api-endpoints',
             },
 
- 
             {
               label: 'AI Vulnerability Scanning',
               link: 'features/aivs',
@@ -272,7 +264,7 @@ export default defineConfig({
               label: 'AI Searching',
               link: 'features/aivs',
             },
-            {   
+            {
               label: 'Gnoppix VPN',
               link: 'features/vpn',
             },
@@ -317,94 +309,65 @@ export default defineConfig({
               link: 'features/pass',
             },
 
-
             {
               label: 'Malware/RootKit Scanner',
               link: 'features/root',
             },
-
 
             {
               label: 'Disk Wiper',
               link: 'features/diskwiper',
             },
 
-
             {
               label: 'MetaData cleaner',
               link: 'features/meta',
-
             },
-
 
             {
               label: 'Hardenend WebBroser',
               link: 'features/web',
-
             },
-
 
             {
               label: 'Working AD Blocker',
               link: 'features/add',
-
             },
-
 
             {
               label: 'RAM Wiper',
               link: 'features/ram',
-            
             },
-
 
             {
               label: 'Wizard of OZ',
               link: 'features/thecleaner',
-
             },
-
 
             {
               label: 'Network Security Toolkit',
               link: 'features/network',
-
             },
-
 
             {
               label: 'Gnoppix internal Firewall',
               link: 'features/firewall',
-
             },
-
 
             {
               label: 'Big Red Button',
               link: 'features/brb',
-
             },
-
 
             {
               label: 'Security Audit',
               link: 'features/audit',
-
             },
-
-
-
-
-
 
             {
               label: 'Working AD Blocker',
               link: 'features/add',
-            
             },
-
-
-
 
             {
               label: 'Hardware Detection (chwd)',
@@ -461,14 +424,12 @@ export default defineConfig({
             cs: 'Nastavení',
           },
           items: [
-
-
-             {
+            {
               label: 'AI Quickstart',
               link: 'configuration/quickstart',
-             },
+            },
 
-	     {
+            {
               label: 'Secure Boot Setup',
               translations: {
                 ru: 'Настройка Secure Boot',
@@ -707,11 +668,10 @@ export default defineConfig({
               link: 'policy/repository_policy',
             },
 
-           {
+            {
               label: 'Ai - API Policy',
               link: 'policy/ai_terms_of_service.md',
             },
-
 
             {
               label: 'Donation',
@@ -741,4 +701,3 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
 });
-
