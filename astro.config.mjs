@@ -182,6 +182,27 @@ export default defineConfig({
             },
           ],
         },
+
+
+        {
+          label: 'Gnoppix community',
+          translations: {
+            de: 'Gnoppix Community',
+            en: 'Gnoppix Community',
+          },
+          items: [
+            {
+              label: 'Gnoppix Member',
+              link: 'community/gnoppix',
+            },
+
+
+
+
+	    ],
+         },  
+
+
         {
           label: 'Gnoppix Features',
           translations: {
