@@ -62,7 +62,9 @@ As a member you have multiple advantages
 
 * As a Gnoppix Member, you get discounts for subscriptions and licensed software through our partner system.
 
-* Shared access to our privacy based ASI (AI) online resources at http://ai.gnoppix.org  (temp. currently down do missing sponsor) 
+* Free Access to our privacy based ASI Platform (AI) online resources at http://ai.gnoppix.org   
+
+* Free Access to AI OpenAI compatible API and free access state of the art models like, Deepseek, Mistral, Gemini ... 
 
 * You support the Gnoppix development.
 

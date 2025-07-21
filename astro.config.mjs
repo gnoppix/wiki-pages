@@ -192,10 +192,20 @@ export default defineConfig({
           },
           items: [
             {
+              label: 'Gnoppix AI Packages',
+              link: 'community/gnoppix-ai',
+            },
+
+            {
               label: 'Gnoppix Member',
               link: 'community/gnoppix',
             },
 
+
+            {
+              label: 'Join as a Member',
+              link: 'community/join',
+            },
 
 
 
