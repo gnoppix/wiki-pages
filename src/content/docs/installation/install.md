@@ -9,9 +9,11 @@ Now, you must be convinced of how wonderful Linux is and of all the great things
 
 Of course, the requirements depend on many factors like age, quality of your hardware, usage, and so on. Generally, you can say very conservatively that your system will run smoothly with the following requirements.
 
+:::caution
 I want to clarify the history, as there's a lot of misinterpretation on the Net. Some people weren't even born at that time, yet they claim to know exactly how it was.
+:::
 
-:::info
+:::tip
 Gnoppix is and always was based on Debian. Even Gnoppix V0.0.1 was based on Debian (Woody) at that time. For our members, we offer KDE, GNOME, and XFCE Desktops with their current versions.
 
 The story behind Gnoppix and its naming is this: Klaus Knopper was one of the first people to build a Debian-based LiveCD. I loved the concept, as there was no easy way in the mid-2000s to demonstrate a Linux desktop to users without installing it. DVDs were also very rare and expensive back then.
