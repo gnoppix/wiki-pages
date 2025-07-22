@@ -9,7 +9,7 @@ Now, you must be convinced of how wonderful Linux is and of all the great things
 
 Of course, the requirements depend on many factors like age, quality of your hardware, usage, and so on. Generally, you can say very conservatively that your system will run smoothly with the following requirements.
 
-Before Gnoppix 25 Core, Gnoppix was based on Debian
+Gnoppix is and was always based on **Debian**. Even on Gnoppix V0.0.1 is was Debian (Woody) this time. For our member we offer an KDE/Gnome/XFCE Desktop with the current Version of the DE.
 
 Step-1: Download the latest Gnoppix
 -----------------------------------
