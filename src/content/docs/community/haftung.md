@@ -3,7 +3,7 @@ title: Gnoppix Community
 description: Ways to support us
 ---
 
-Who is Liable When Using Open Source Software (from the German view of point) and you will understand why this is not acceptable for us as a Opensource Linux Project. 
+**Who is Liable When Using Open Source Software?** (from the German view of point) and you will understand why this is not acceptable for us as a Opensource Linux Project. 
 
 Open Source Software (OSS) has become an indispensable part of today's software world. The development of modern cloud, embedded, and mobile computing technologies, in particular, relies heavily on OSS solutions. More and more software providers are using open-source components. Microsoft, for example, which has an important revenue stream from its traditional Windows business with paid software, has now become an active player in the OSS market and has even made parts of its own code openly accessible, including the .NET Framework and Visual Studio Code. GitHub, the largest repository for open-source project infrastructure, was also acquired by Microsoft in 2018, which did not diminish the popularity of this service.
 

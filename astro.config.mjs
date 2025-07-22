@@ -24,7 +24,7 @@ export default defineConfig({
         src: '/src/assets/logo.svg',
       },
       editLink: {
-        baseUrl: 'https://github.com/gnoppix/wiki/edit/next/',
+        baseUrl: 'https://github.com/gnoppix/wiki-pages/edit/next/',
       },
       social: [
         {
