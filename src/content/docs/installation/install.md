@@ -20,7 +20,7 @@ The story behind Gnoppix and its naming is this: Klaus Knopper was one of the fi
 
 Knoppix was initially built for KDE and GNOME. When Klaus decided to drop GNOME, I asked him to adapt the LiveCD concept.(We worked on different projects.) My idea was to include a GNOME Desktop instead of KDE, with better hardware detection, the ability to write to the LiveCD, and more. This was so revolutionary at the time that Shuttleworth hired me to include Gnoppix in his first Ubuntu distribution, and that's how Ubuntu was born.
 
-After Gnoppix was implemented into Ubuntu, I started the first community project focused on something with KDE on it, instead of just running an Ubuntu GNOME desktop and Kubuntu was born, and as i left with my 6 month contract, Riddel took over.
+After Gnoppix was implemented into Ubuntu, I started the first Cononical Community project focused with KDE on it. Just running an Ubuntu GNOME desktop but KDE packages on it and Kubuntu was born, as i left on my 6 month contract, Riddel took over.
 :::
 
 
