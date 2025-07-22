@@ -18,7 +18,9 @@ Gnoppix is and always was based on Debian. Even Gnoppix V0.0.1 was based on Debi
 
 The story behind Gnoppix and its naming is this: Klaus Knopper was one of the first person to release a Debian-based LiveCD. I loved the concept, as there was no easy way in the mid-2000s to demonstrate a Linux desktop to users without installing it. DVDs were also very rare and expensive back then.
 
-Knoppix was initially built for KDE and GNOME. When Klaus decided to drop GNOME, I asked him to adapt the LiveCD concept.(We worked on different projects.) My idea was to include a GNOME Desktop instead of KDE, with better hardware detection, the ability to write to the LiveCD, and more. This was so revolutionary at the time that Shuttleworth hired me to include Gnoppix in his first Ubuntu distribution, and that's how Ubuntu was born.
+Knoppix was initially built for both KDE and GNOME. When Klaus Knopper decided to drop GNOME support, I approached him with an idea to adapt the LiveCD concept (we were working on different projects at the time and Klaus dropped Gnome cause the 600GB limitation on CDs). My vision was to create a LiveCD that featured a GNOME Desktop instead of KDE, alongside significantly better hardware detection and, crucially, the ability to write to the LiveCD – something revolutionary back then.
+This concept proved to be so groundbreaking that Shuttleworth hired me to include Gnoppix in his Linux distribution, and that's literally how Ubuntu was born.
+To honor Klaus for his pioneering work and initial ideas, I named it Gnoppix. You know how the KDE community often puts a "K" in front of everything? Well, this time, I replaced the "K" with a "G" for GNOME. While some GNOME enthusiasts were coming up with more elaborate names like Kalypso, Gnoppix was simply easier to remember.
 
 After Gnoppix was implemented into Ubuntu, I started the first Cononical Community project focused with KDE on it. Just running an Ubuntu GNOME desktop but KDE packages on it and Kubuntu was born, as i left on my 6 month contract, Riddel took over.
 :::
