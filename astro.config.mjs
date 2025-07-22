@@ -251,7 +251,7 @@ export default defineConfig({
 
             {
               label: 'Stable Diffusion',
-              link: 'community/haftung',
+              link: 'community/sd',
             },
 
 
