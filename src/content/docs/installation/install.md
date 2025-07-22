@@ -3,7 +3,7 @@ title: Gnoppix Install
 description: Install Gnoppix Linux
 ---
 
-Gnoppix Linux is a free and open-source Linux distribution derived from the Arch Linux distribution. This distribution is known for its stable, secure, and user-friendly interface, making it one of the most popular Linux distributions in the world. With Gnoppix 23.9 and later we gave the users the possibility to install the LiveCD and update your System online.
+Gnoppix Linux is a free and open-source Linux distribution derived from the Debian (stable) Distribution. This distribution is known for its stable, secure, and user-friendly interface, making it one of the most popular Linux distributions in the world. With Gnoppix 23.9 and later we gave the users the possibility to install the LiveCD and update your System online.
 
 Now, you must be convinced of how wonderful Linux is and of all the great things that it can do for you. However, before you rush out and install the software, you need to be aware of its hardware requirements and limitations.
 
