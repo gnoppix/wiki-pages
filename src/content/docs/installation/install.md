@@ -10,17 +10,17 @@ Now, you must be convinced of how wonderful Linux is and of all the great things
 Of course, the requirements depend on many factors like age, quality of your hardware, usage, and so on. Generally, you can say very conservatively that your system will run smoothly with the following requirements.
 
 :::caution
-I want to clarify the history, as there's a lot of misinterpretation on the Net. Some people weren't even born at that time, yet they claim to know exactly how it was.
+I want to clarify the history of Gnoppix, as there's a lot of misinterpretation on the Net. Some people weren't even born at that time, yet they claim to know exactly how it was.
 :::
 
 :::tip
 Gnoppix is and always was based on Debian. Even Gnoppix V0.0.1 was based on Debian (Woody) at that time. For our members, we offer KDE, GNOME, and XFCE Desktops with their current versions.
 
-The story behind Gnoppix and its naming is this: Klaus Knopper was one of the first people to build a Debian-based LiveCD. I loved the concept, as there was no easy way in the mid-2000s to demonstrate a Linux desktop to users without installing it. DVDs were also very rare and expensive back then.
+The story behind Gnoppix and its naming is this: Klaus Knopper was one of the first person to release a Debian-based LiveCD. I loved the concept, as there was no easy way in the mid-2000s to demonstrate a Linux desktop to users without installing it. DVDs were also very rare and expensive back then.
 
-Knoppix was initially built for KDE and GNOME. When Klaus decided to drop GNOME, I asked him to adapt the LiveCD concept. My idea was to include a GNOME Desktop instead of KDE, with better hardware detection, the ability to write to the LiveCD, and more. This was so revolutionary at the time that Mark Shuttleworth hired me to include Gnoppix in his first Ubuntu distribution, and that's how Ubuntu was born.
+Knoppix was initially built for KDE and GNOME. When Klaus decided to drop GNOME, I asked him to adapt the LiveCD concept.(We worked on different projects.) My idea was to include a GNOME Desktop instead of KDE, with better hardware detection, the ability to write to the LiveCD, and more. This was so revolutionary at the time that Shuttleworth hired me to include Gnoppix in his first Ubuntu distribution, and that's how Ubuntu was born.
 
-After Gnoppix was implemented into Ubuntu, I founded the first community project focused on something with KDE on it, instead of just running an Ubuntu GNOME desktop and Kubuntu was born, and as i left with my 6 month contract Riddel took over.
+After Gnoppix was implemented into Ubuntu, I started the first community project focused on something with KDE on it, instead of just running an Ubuntu GNOME desktop and Kubuntu was born, and as i left with my 6 month contract, Riddel took over.
 :::
 
 
