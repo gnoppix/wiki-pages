@@ -22,7 +22,7 @@ Knoppix was initially built for both KDE and GNOME. When Klaus Knopper decided t
 This concept proved to be so groundbreaking that Shuttleworth hired me to include Gnoppix in his Linux distribution, and that's literally how Ubuntu was born.
 To honor Klaus for his pioneering work and initial ideas, I named it Gnoppix. You know how the KDE community often puts a "K" in front of everything? Well, this time, I replaced the "K" with a "G" for GNOME. While some GNOME enthusiasts were coming up with more elaborate names like Kalypso, Gnoppix was simply easier to remember.
 
-After Gnoppix was implemented into Ubuntu, I started the first Cononical Community project focused with KDE on it. Just running an Ubuntu GNOME desktop but KDE packages on it and Kubuntu was born, as i left on my 6 month contract, Riddel took over.
+After Gnoppix was implemented into Ubuntu, I started the first Canonical Community project focused with KDE on it. Just running an Ubuntu GNOME desktop but KDE packages on it and Kubuntu was born, as i left on my 6 month contract, Riddel took over.
 :::
 
 
@@ -56,7 +56,9 @@ alternative you can click to the Desktop Icon "Install Gnoppix" or search from t
 
 Warning, Warning as most people wish, now you can install Gnoppix locally. Unfortunately the calamares installer does’nt support many features, QT-lib depends, this is why QT is installed on a Gnome system :) For example as a missing feature is harddisk crypto. Again, be aware of all you moves, all commands, your visit, traces and passwords….
 
-The better way to use it, run the LiveCD with crypted persistence mode. You can replace you LiveCD time to time get the new features and security updates, with the updated version you are still able continue to use your very private data or session on a crypted device. Which can be also a small (shinked) partition on you device harddisk.
+The better way to use it, run the LiveCD with crypted persistence mode. You can replace you LiveCD time to time get the new features and security updates, with the updated version you are still able continue to use your very private data or session on a crypted device. Which can be also a small (shinked) partition on you device harddisk. This is similar how Mobile devices running today.
+
+As a third method, you can search for 'install' in the Gnoppix Menu.
 
 Once you have Gnoppix installed, you can live-upgrade the system. There is no need to re-install with newer images, make sure you have the Gnoppix Repository Server active. [Gnoppix Repositories see](https://wiki.gnoppix.org/installation/repo/ "https://wiki.gnoppix.org/installation/repo/") and press “Package Updater”
 
