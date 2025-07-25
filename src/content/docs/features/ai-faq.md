@@ -56,7 +56,7 @@ No, you can use your own provider API keys on all our Applications for free.
 #### What LLM models does Gnoppix AI support?
 
 Gnoppix AI provides access to a wide variety of LLM models, including frontier models from major AI labs.
-For a complete list of models you can visit the [models browser](https://media.gnoppix.org/gnoppix_ai_models_all.ods) or fetch the list through the [models api](https://api.gnoppix.org/api/v1/models).
+For a complete list of models you can visit the [models browser](https://media.gnoppix.org/gnoppix_ai_models_all.ods) or fetch the list through the [models api](https://us.api.gnoppix.org/v1/models).
 
 
 #### How frequently are new models added?
@@ -68,7 +68,7 @@ available. If there is a model missing that you'd like Gnoppix AI to support, fe
 
 Variants are suffixes that can be added to the model slug to change its behavior.
 
-Static variants can only be used with specific models and these are listed in our [models api](https://api.gnoppix.org/api/v1/models).
+Static variants can only be used with specific models and these are listed in our [models api](https://us.api.gnoppix.org/v1/models).
 
     1. `:free` - The model is always provided for free and has low rate limits.
     2. `:beta` - The model is not moderated by Gnoppix AI.
@@ -223,7 +223,7 @@ listed price.
 
 #### How can I delete my account?
 
-Go to the [Settings](https://api.gnoppix.org) page and click Manage Account.
+Go to the [Settings](https://us.api.gnoppix.org) page and click Manage Account.
 In the modal that opens, select the Security tab. You'll find an option there to delete your account.
 
 :::note 

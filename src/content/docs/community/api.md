@@ -5,7 +5,7 @@ description: Ways to support us
 
 The URL for OpenAI-compatible AI API calls is:
 
-#### https://api.gnoppix.org
+#### https://us.api.gnoppix.org
 
 This is a centralized entry point with servers load-balanced across the entire planet. You can try to 'ping' the host, which should provide minimal latency.
 
