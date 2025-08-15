@@ -17,7 +17,7 @@ If you use different repositories, it will break your system. Do not use Ubuntu 
 With Debian 13 apt completly changed, thats why we have different formats and till 2028 we have support for Gnoppix 22/23/24.
 
 
-Gnoppix Core (Free Desktop) Software repositories Arch Linux Based
+Gnoppix (Member) Software repositories Arch Linux Based
 ------------------------------------------------------------------
 
 
@@ -70,7 +70,7 @@ Gnoppix PRO/Ultimate (Desktop) Software repositories Debian Linux Based
 
 With network access, you should have the following entry present in /etc/apt/sources.list:
 
-### Gnoppix 25 XFCE/KDE/GNOME - with member access 
+### Gnoppix 25 XFCE/KDE ALL VERSION  
 
 ```sh
 file
@@ -83,37 +83,6 @@ URIs: http://archive.gnoppix.com/
 Suites: community
 Components: main
 Signed-By: /etc/apt/trusted.gpg.d/gnoppix.gpg
-
-Types: deb
-URIs: https://patreon.gnoppix.com/
-Suites: patreon
-Components: main
-Signed-By: /etc/apt/trusted.gpg.d/gnoppix.gpg
-
-Types: deb
-URIs: https://patreon.gnoppix.com/
-Suites: ultimate
-Components: main
-Signed-By: /etc/apt/trusted.gpg.d/gnoppix.gpg
-
-Types: deb
-URIs: http://archive.gnoppix.com/
-Suites: bookworm-updates
-Components: main
-Signed-By: /etc/apt/trusted.gpg.d/gnoppix.gpg
-
-Types: deb
-URIs: http://archive.gnoppix.com/
-Suites: bookworm-backports
-Components: main
-Signed-By: /etc/apt/trusted.gpg.d/gnoppix.gpg
-
-Types: deb
-URIs: http://archive.gnoppix.com/
-Suites: bookworm
-Components: main
-Signed-By: /etc/apt/trusted.gpg.d/gnoppix.gpg
-
 ```
 
 
@@ -148,6 +117,10 @@ wget -O- http://archive.gnoppix.com/gnoppix.key | sudo gpg --dearmor | sudo tee 
 
 Repositories for Gnoppix Members / Gnoppix Pro / Ultimate / LTS
 
+
+## Under contruction
+
+**under beta testing, please make sure you have the normal pool enabled get all updates**
 
 #### Setup you access
 
