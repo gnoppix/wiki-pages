@@ -55,7 +55,7 @@ wget -O- http://archive.gnoppix.com/gnoppix.key | sudo gpg --dearmor | sudo tee 
 #### Repositories for Gnoppix Members / Gnoppix Pro / Ultimate / LTS
 
 
-## Under contruction
+## Under construction
 
 **under beta testing!, please make sure you have the normal pool enabled get all updates**
 

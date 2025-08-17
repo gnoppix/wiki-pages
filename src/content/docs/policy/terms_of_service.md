@@ -135,14 +135,54 @@ Public statements and contributions may remain visible even after account deleti
 
 ## 10. Miscellaneous
 
-### 10.1. Applicable Law
+Of course. Here is the provided text converted into a Markdown document.
+
+***
+
+### 10.1 Discounts
+
+We are pleased to offer a student discount for those actively enrolled in an accredited educational institution. Our program is also intended to support individuals in need.
+
+To verify your student, retirement, or special status, please provide one of the following documents:
+
+**Student:**
+* Current student ID card
+* Copy of tuition bill for the current semester
+* Letter from your school's registrar's office confirming enrollment
+
+**Retirement:**
+* Pension certificate
+
+**Special:**
+* Severely disabled certificate ID (please specify issuing authority)
+
+To finalize your account setup, our external IT team is going through a standard verification process. You'll shortly receive an email with instructions on how to submit the required documents. This helps us ensure the subscription reaches the right student user.
+
+**Please note:** If we don't receive the requested documents within 7 days, your order will automatically be converted to a regular donation with a standard membership price.
+
+Of course, you're always welcome to choose the regular membership plan at any time. Should you have any questions, feel free to reach out to our friendly support team!
+
+***
+
+### 10.2 Refund Policy
+
+We provide a free version of Gnoppix that you can use to test the software without limitations. Because of this, we do not propose refund solutions on these digital goods. The purchase is seen more as a donation to the project, not a product.
+
+In general, we offer a 24-hour free right of withdrawal in case you ordered by mistake.
+
+If you have any questions, please do not hesitate to contact us on Discord or send an email to the support center.
+
+Please do not order a student, discounted version if you do not qualify for it. If you order the discounted version and the transaction is found to be a mistake, a service and handling fee of $10 will be applied to cover the fees charged by our payment providers, such as Ko-Fi, PayPal, and GGOS-Singapore.
+
+
+### 10.3. Applicable Law
 
 These Terms of Service are governed exclusively by the laws of the relevant jurisdiction, excluding the United Nations Convention on Contracts for the International Sale of Goods (CISG).
 
-### 10.2. Severability Clause
+### 10.4. Severability Clause
 
 If any provision of these Terms of Service is found to be invalid, the remaining provisions will remain in effect.
 
-### 10.3. Disputes
+### 10.5. Disputes
 
-We suggest different ways to solvce disputes and it resolution https://jcplaw.com.sg/construction-disputes-methods-resolve-them/ it can be subbmitted at https://siac.org.sg/ We are not obligated to participate in dispute resolution procedures before a consumer arbitration board.
+We suggest different ways to solvce disputes and it resolution, our 1st advise is, everyone can make mistastes, talking often solves problem. If this is not possible file a case to https://jcplaw.com.sg/construction-disputes-methods-resolve-them/ it can be subbmitted at https://siac.org.sg/ We are not obligated to participate in dispute resolution procedures before a consumer arbitration board. 
