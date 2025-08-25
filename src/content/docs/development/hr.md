@@ -1,6 +1,6 @@
 ---
-title: Official Gnoppix Framework 
-description: Gnoppix AI Framework 
+title: Gnoppix AI HR Agent Framework
+description: Gnoppix AI HR Agent Framework 
 ---
 
 #### Draft 1.0 

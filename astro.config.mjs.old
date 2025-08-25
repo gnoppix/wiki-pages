@@ -674,31 +674,46 @@ export default defineConfig({
 
 
 
-{
-  // The label 'Developement' has been corrected to 'Development' to match the directory name.
-  label: 'Development',
-  items: [
-    {
-      label: 'OSS AI Framework',
-      // Corrected the link path spelling from 'developemnt' to 'development'.
-      link: 'development/framework',
-    },
-    {
-      label: 'OSS AI Web Chat Agent',
-      // Corrected the link path spelling from 'developement' to 'development'.
-      link: 'development/chat',
-    },
-    {
-      label: 'OSS AI HR Agent',
-      // Corrected the link path spelling from 'developement' to 'development'.
-      link: 'development/hr',
-    },
-    {
-      label: 'OSS AI Webscraper',
-      link: 'development/web',
-    },
-  ],
-},
+     {
+          label: 'Developement',
+     
+          items: [
+            {
+              label: 'OSS AI Framework',
+              link: 'developemnt/framework',
+            },
+
+            {
+              label: 'OSS AI Web Chat Agent',
+              link: 'developement/chat',
+            },
+            {
+              label: 'OSS AI HR Agent',
+              link: 'developement/hr',
+            },
+            {
+              label: 'OSS AI Webscraper',
+              link: 'development/web',
+            },
+          ],
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
