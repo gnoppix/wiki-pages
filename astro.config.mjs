@@ -670,6 +670,52 @@ export default defineConfig({
             },
           ],
         },
+
+
+
+
+     {
+          label: 'Developement'
+          items: [
+            {
+              label: 'OSS AI Framework',
+              link: 'developemnt/framework',
+            },
+            {
+              label: 'OSS AI Web Chat Agent',
+              link: 'developement/chat',
+            },
+            {
+              label: 'OSS AI HR Agent',
+              link: 'developement/hr',
+            },
+            {
+              label: 'OSS AI Webscraper',
+              link: 'development/web',
+            },
+          ],
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         {
           label: 'Support',
           translations: {
