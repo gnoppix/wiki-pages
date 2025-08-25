@@ -675,12 +675,14 @@ export default defineConfig({
 
 
      {
-          label: 'Developement'
+          label: 'Developement',
+     
           items: [
             {
               label: 'OSS AI Framework',
               link: 'developemnt/framework',
             },
+
             {
               label: 'OSS AI Web Chat Agent',
               link: 'developement/chat',
