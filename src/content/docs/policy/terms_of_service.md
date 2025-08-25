@@ -9,7 +9,7 @@ title: Terms of Service
 These Terms of Service govern the use of the Gnoppix platform and associated services, including the forums, api, AI Copilot, bug reporting tool, and other collaborative tools ("Services").
 Gnoppix ("we," "us," "our") operates the platform accessible at gnoppix.org and related subdomains. Users ("you," "your") must accept these terms to use the Services.
 
-These Terms provide that all disputes between you and Gnoppix will be resolved by BINDING ARBITRATION. YOU AGREE TO GIVE UP YOUR RIGHT TO GO TO COURT to assert or defend your rights under this contract, except for matters that may be taken to small claims court. Your rights will be determined by a NEUTRAL ARBITRATOR and NOT a judge or jury, and your claims cannot be brought as a class action. Please review Section (“10.3. Disputes”) for the details regarding your agreement to arbitrate any disputes with Gnoppix.
+These Terms provide that all disputes between you and Gnoppix will be resolved by BINDING ARBITRATION. YOU AGREE TO GIVE UP YOUR RIGHT TO GO TO COURT to assert or defend your rights under this contract, except for matters that may be taken to small claims court. Your rights will be determined by a NEUTRAL ARBITRATOR and NOT a judge or jury, and your claims cannot be brought as a class action. Please review Section (“10.5. Disputes”) for the details regarding your agreement to arbitrate any disputes with Gnoppix.
 
 
 ### 1.2. Use of the Services

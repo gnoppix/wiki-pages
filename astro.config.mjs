@@ -209,6 +209,12 @@ export default defineConfig({
 
 
             {
+              label: 'System updates',
+              link: 'community/update',
+            },
+
+
+            {
               label: 'AI Legal issues?',
               link: 'community/cp',
             },

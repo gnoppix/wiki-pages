@@ -3,7 +3,20 @@ title: How To Access All AI Models In One Place
 description: As the range of AI models expands, selecting the right one for your daily tasks can be overwhelming.
 ---
 
-Access All AI Models in One Place
+#### Access All AI Models in One Place
+
+:::info 
+We are not forcing anyone to use AI. Gnoppix is a lightweight, fast, secure, and privacy-focused Linux desktop. The AI functionality is completely optional.
+:::
+
+That being said, you have the flexibility to transform your desktop into an Open Source AI-based desktop by running local, open-source Large Language Models (LLMs). Alternatively, you can use your Linux desktop to access the latest closed models from providers like OpenAI and Google. The choice is entirely up to you.
+
+A typical local AI installation can be hundreds of gigabytes, as the models run directly on your machine. By default, Gnoppix installs as a normal Linux desktop. If you decide to enhance it with open-source AI, you simply install the necessary AI core packages.
+
+Copilot is an alternative to closed-source chat applications. It's designed for our members and is not a free, additional AI tool. To use it, you'll need a Gnoppix Member Subscription or your own API keys.
+
+ 
+ 
 
 As the range of AI models expands, selecting the right one for your daily tasks can be overwhelming.
 
