@@ -831,7 +831,7 @@ export default defineConfig({
 
             {
               label: 'Ai - API Policy',
-              link: 'policy/ai_terms_of_service.md',
+              link: 'policy/ai_terms_of_service',
             },
 
             {
