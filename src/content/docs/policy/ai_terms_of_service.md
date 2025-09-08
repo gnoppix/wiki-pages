@@ -1,5 +1,5 @@
 ---
-title: Terms of Service
+title: Terms of AI Services
 ---
 
 AI Terms of Use for the Gnoppix Platform
