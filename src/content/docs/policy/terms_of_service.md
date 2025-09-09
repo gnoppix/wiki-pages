@@ -144,7 +144,7 @@ These Terms are for an indefinite period. [cite_start]Either party can terminate
 
 ### 10.3. Governing Law and Jurisdiction
 
-[cite_start]This agreement is governed by the laws of the State of [Virginia] in the United States[cite: 57]. [cite_start]Any legal action shall be brought exclusively in the courts located in [Singapore][cite: 58].
+[cite_start]This agreement is governed by the laws of the State of [Bangkok] in Thailand[cite: 57]. [cite_start]Any legal action shall be brought exclusively in the courts located in [Thailand][cite: 58].
 
 ### 10.4. Disputes
 
