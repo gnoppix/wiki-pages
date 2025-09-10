@@ -11,5 +11,10 @@ Feel free to join!.
 
 - [Discord](<https://discord.com/invite/tmHjQmgBW9>)
 - [Forum](<https://forum.gnoppix.org>)
+- [Wiki](https://wiki.gnoppix.org>)
 - [X](<https://x.com/gnoppixlinux>) - **Excluded from asking for help.**
 - [Facebook](<https://www.facebook.com/profile.php?id=61561906124208>)
+
+We're using OSS Astro framework https://astro.build/  with Starlight Theme https://github.com/withastro/starlight
+
+

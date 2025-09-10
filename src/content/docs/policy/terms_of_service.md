@@ -1,9 +1,8 @@
 ---
-title: Terms of Service
+title: Gnoppix Terms of Service
 ---
 
 ## 1. Scope of the Terms of Service
-# Gnoppix Terms of Service
 
 Effective Date: [25.7.2023]
 

@@ -10,7 +10,7 @@ During our test, we'll highlight our top 10 modules. Of course, there are many m
 
 #### Model describtions
 
-- GPT-4o 4.1 (OpenAI): This is OpenAI's latest flagship model, known for its multimodal capabilities (handling text, audio, and image input/output in real-time) and impressive speed. It's designed for highly interactive applications.
+- GPT-5 (OpenAI): This is OpenAI's latest flagship model, known for its multimodal capabilities (handling text, audio, and image input/output in real-time) and impressive speed. It's designed for highly interactive applications.
 
 - Claude 4 Sonnet / Opus (Anthropic): Anthropic's Claude series, especially the Opus variant, is highly regarded for its strong reasoning abilities, long context windows, and focus on safety and ethical AI. Sonnet offers a good balance of speed and performance.
 
@@ -31,19 +31,35 @@ During our test, we'll highlight our top 10 modules. Of course, there are many m
 
 As an part of the Gnoppix Membership, you can use those models (with the 1000 query limit a day) for free .
 
-- Deepseek-r1-0528
-DeepSeek R1 is here: Performance on par with OpenAI o1, but open-sourced and with fully open reasoning tokens. It's 671B parameters in size, with 37B active in an inference pass.
 
+openrouter/google/gemma-3-27b-it:free
 
-- Deepseek-chat-v3-0324
-DeepSeek V3, a 685B-parameter, mixture-of-experts model, is the latest iteration of the flagship chat model family from the DeepSeek team.
-It succeeds the DeepSeek V3 model and performs really well on a variety of tasks.
+openrouter/google/gemini-2.0-flash-exp:free
 
-- Mistral Small 3.2 24B
-Mistral-Small-3.2-24B-Instruct-2506 is an updated 24B parameter model from Mistral optimized for instruction following, repetition reduction, and improved function calling. Compared to the 3.1 release, version 3.2 significantly improves accuracy on WildBench and Arena Hard, reduces infinite generations, and delivers gains in tool use and structured output tasks.
+openrouter/qwen/qwen2.5-vl-72b-instruct:free
 
-- Gemini-2.0-flash-exp
-Gemini Flash 2.0 offers a significantly faster time to first token (TTFT) compared to Gemini Flash 1.5, while maintaining quality on par with larger models like Gemini Pro 1.5. It introduces notable enhancements in multimodal understanding, coding capabilities, complex instruction following, and function calling. These advancements come together to deliver more seamless and robust agentic experiences.
+openrouter/qwen/qwen2.5-vl-32b-instruct:free
+
+openrouter/openai/gpt-oss-20b:free
+
+openrouter/qwen/qwen3-coder:free
+
+openrouter/google/gemini-2.5-flash-image-preview:free
+
+gemini/gemini-2.5-flash-lite
+
+gemini/gemini-2.5-flash
+
+gemini/gemini-2.0-flash-lite
+
+deepseek/deepseek-r1-0528:free
+
+deepseek/deepseek-chat-v3.1:free
+
+gpt-5-nano
+
+openrouter/mistralai/mistral-7b-instruct:free
+
 
 
 
@@ -59,8 +75,10 @@ This document provides a comparative overview of various leading Large Language 
 |-------------------|------------------|---------------------|----------------------------|-----------------------------|-------------|-----------------------|
 | GPT-4o-mini       | 128K             | 16K                 | $0.15                      | $0.60                       | 0.34        | 80.22                 |
 | GPT-4.1           | 1.05M            | 33K                 | $2                         | $8                          | 0.47        | 75.20                 |
-| GPT-4.5 (Preview) | 128K             | 16K                 | $75                        | $150                        | 0.55        | 59.49                 |
-
+| GPT-5		    | 128K             | 16K                 | $1.25                      | $10                         | 0.52        | 52.21                 |
+| GPT-5-mini        | 400k 	       | 128k		     | $0.25 			  | $2				| 0.45	      | 55.19		      |
+| GPT-5-nano	    | 400k	       | 128k		     | $0.05			  | $0.40			| 0.65	      | 65.72		      |
+  	
 ---
 
 ## Anthropic
