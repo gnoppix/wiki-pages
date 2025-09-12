@@ -62,13 +62,13 @@ As a member you have multiple advantages
 
 * A good feeling that you’ve done something good.
 
-* Dedicated infrastructure for ultrafast updates and downloads - up to 1GB/sec.
+* Dedicated infrastructure for ultrafast updates and downloads - up to 2GB/sec.
 
 * Access to all Gnoppix Images. Different Desktops, other architecture  and latest Version of Software. 
 
 * Early access to latest features and enhancements. this can be a up to 30 days before public release advantage.
 
-* Use a stunning user@gnoppix (forwarding) email address. Here to request if you already a member and you want use it.
+* Use a stunning user@gnoppix email address. Here to request if you already a member and you want use it.
 
 * As a Gnoppix Member, you get discounts for subscriptions and licensed software through our partner system.
 
@@ -76,7 +76,9 @@ As a member you have multiple advantages
 
 * Free Access to AI OpenAI compatible API and free access state of the art models like, Deepseek, Mistral, Gemini ... 
 
-* You support the Gnoppix development.
+* A free AI API Key included to use it on any application which wants a API Endpoint **see the limits**  
+
+* You support the Gnoppix development and all its services.
 
 * and 1,000,000 other reasons…
 
