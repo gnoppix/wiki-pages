@@ -68,9 +68,9 @@ Additionally, we utilizes a consensus algorithm to ensure all nodes agree on the
 
 You reach GS under: 
 
-*  Server EU https://search.gnoppix.org 
-*  SERVER USA https://search-us.gnoppix.org	            
-
+*  Server Global https://search.gnoppix.org 
+*  SERVER USA EAST https://search-us.gnoppix.org	            
+*  SERVER ASIA **soon** 
 
 
 

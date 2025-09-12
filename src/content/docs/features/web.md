@@ -1,6 +1,59 @@
 ---
-title: Gnoppix AI  
-description: Gnoppix AI  
+title: Gnoppix Web-to-go   
+description: Gnoppix Web-to-go  
 ---
 
-### Soon 
+
+import ImageComponent from '~/components/image-component.astro';
+import MultipleImageComponent from '~/components/multiple-images-component.astro';
+
+
+<br />
+
+<ImageComponent imgsrc={import('~/assets/images/web-to-go.png')} />
+
+
+------
+
+
+
+### Gnoppix Website-To-Go: A New Service to Analyze Your Landing Page
+
+Landing pages are a vital part of any marketing funnel. They're a single web page designed to convert visitors into leads or customers. A high-converting landing page is a symphony of elements working together, and it's essential for any business. But what makes a landing page great? It's more than just a beautiful design.
+
+Today, we're excited to tell you about our new **Gnoppix Website-To-Go** service, which uses AI to analyze your landing pages and provide you with actionable optimization tips.
+
+---
+
+### From Techie to Web Optimizer: A Personal Journey
+
+I've been a techie for 30 years. I started with a simple homepage back in the day, but today, that's just not enough. The world of web optimization has changed, and it can be hard to keep up. I don't have a deep understanding of today's optimization standards, and I'm sure many of you feel the same way.
+
+A simple solution would be to ask a friend or hire a professional, but these aren't always efficient options. In the age of AI, I wondered, "Why not ask an AI?" So, I created another AI agent, and I tested it. What it suggested sounded logical. But I needed a way to verify the output, to make sure it wasn't just giving me plausible but incorrect answers.
+
+So, I asked my agent how accurate its output was. Its response was, "Soon, she'll have no more jobs." That was a sign that this was a powerful and accurate tool.
+
+This journey led me to a realization: we could offer this service to you. I'm excited to announce our newest service, **Gnoppix Website-To-Go**.
+
+---
+
+### How to Get Your Optimization Report
+
+To get started with your optimization report, simply send an email to our dedicated address: **https://web-to-go.gnoppix.org/**. Please include a link to your landing page in the body of the email.
+
+Since Gnoppix pays for the AI usage to generate these reports, we are currently allowing one company to place their advertisement at the top of the report. This helps us cover the costs and continue to provide this valuable service to our community.
+
+**Your data stays safe with us; we do not sell any of your information.** The data you provide is used solely to generate your report, which will be sent directly to your email address.
+
+Please consider supporting such services in the future by becoming a sponsor or making a donation. Thank you!
+
+
+:::note
+A submission takes around 45 seconds to 1 minute.
+:::
+
+
+### Warning 
+Abuse of this service will result in it being restricted to Gnoppix members only.
+
+

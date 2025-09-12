@@ -279,6 +279,11 @@ export default defineConfig({
 
 
 
+            {
+              label: 'AI Web optimizer',
+              link: 'features/web',
+            },
+
 
             {
               label: 'AI WordPressing',

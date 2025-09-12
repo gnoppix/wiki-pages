@@ -35,6 +35,11 @@ Ensure accurate and precise timekeeping
 Protect your location and device information from unauthorized access
 Get Started with Gnoppix Time Sync Today!
 
-To experience the benefits of our new time sync servers, simply add time.gnoppix.org or gnoppix.pool.ntp.org. Our services are free and open to anyone who needs a reliable and secure way to synchronize their clocks.
+To experience the benefits of our new time sync servers, simply add **time.gnoppix.org** or **gnoppix.pool.ntp.org**. Our services are free and open to anyone who needs a reliable and secure way to synchronize their clocks.
+
+#### Gnoppix Time Server
+
+- time.gnoppix.org
+- gnoppix.pool.ntp.org 
 
 By choosing our Gnoppix Time Sync servers, you can enjoy precise timekeeping while maintaining the security of your device’s location information.
