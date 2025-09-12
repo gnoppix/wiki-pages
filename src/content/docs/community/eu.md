@@ -10,7 +10,7 @@ description: Ways to support us
 
 
 EU AI Act – the 10 key things you need to know, leave the EU with your AI startup NOW.
-Karma Page BuilderKarma Page Builder
+
 
 The EU AI act applies only to areas within EU law and provides **exemptions** such as for systems used **exclusively for military** and defence as well as for research purposes.
 
