@@ -8,8 +8,8 @@ description: Version of the current Desktops
 ### The latest KDE Rolling Desktop is: 6.3.6
 Continuous build
 
-### The latest KDE Desktop Arch is: 6.4.4
-Next release is 6.4.5 on 9 September 25
+### The latest KDE Desktop Arch is: 6.4.5
+Next release is 6.5-Beta1 on 19 September 25
 
 ### The latest XFCE Desktop is: 4.20
 Next release : not defined now

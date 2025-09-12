@@ -10,15 +10,19 @@ Membership: This is for individuals who just like Gnoppix or are interested in s
 Another possibility for becoming a Gnoppix member is through your **ongoing contributions in the form of helping with any ongoing task, such as testing, writing code, and so on**.
 
 To become a member of the Gnoppix Linux, you can visit the membership website or discounted membership  and click on the “Membership” tab. You will then be able to select the type of membership that you are interested in and complete the online application form.
-Here are the steps on how to become a Gnoppix Member:
+
+
+#### Here are the steps on how to become a Gnoppix Member:
 
  
 
 Visit the 
 
-Buy Gnoppix AI Linux a Coffee  website.
+#### Kofi
 
-* Click on red “join”.
+Buy Gnoppix AI Linux a Coffee website. -> https://ko-fi.com/gnoppix/
+
+* Click on “Join”.
 
 * Complete the online application form
 
@@ -28,7 +32,13 @@ Buy Gnoppix AI Linux a Coffee  website.
 
 Once you have completed the application process, you will be a member of the Gnoppix Linux and will be able to enjoy all of the benefits that membership has to offer.
 
- 
+#### Patreon
+
+
+vistit Patreon -> https://www.patreon.com/gnoppix
+
+Goto Membership and choose one
+
 
 If you have any question feel free to submit your question to : Gnoppix Linux Support - Jira Service Management (atlassian.net) or by email to:  support@gnoppix.atlassian.net
 
@@ -89,6 +99,11 @@ Here a list of the current costs per months:
 ### KoFi  
 
 https://ko-fi.com/gnoppix
+
+
+### Patreon 
+
+https://www.patreon.com/gnoppix
 
 
 ### PayPal
