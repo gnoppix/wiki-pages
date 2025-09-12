@@ -5,28 +5,32 @@ description: Ways to support us
 
 ### There are are 2 reasons:  
 
-* EU AI ACT 
 * [EU Liability Software Directives - Produkthaftungsrichtlinie](https://wiki.gnoppix.org/community/haftung) 
+* EU AI ACT - as follow
 
 
-EU AI Act – the 10 key things you need to know, leave the EU with your AI startup NOW.
+The [EU AI Act](https://artificialintelligenceact.eu/ai-act-explorer/) applies not only to areas within EU jurisdiction but also outside its borders, making it a global threat.
+
+Consider an open-source project or a company that accepts user donations. The EU can sue such a company even if it has no servers within the EU. A lawsuit can be filed even if the software is merely downloaded within the EU.
+
+The [EU Liability Software Directives](https://artificialintelligenceact.eu/ai-act-explorer/) are subject to the same concerns. We've explored alternatives, but unfortunately, these two circumstances now prevent us from shipping to the EU. Current law also requires us to activate geo-blocking, decline donations from the EU, and have users confirm their non-EU residency with a button.
+
+While we, as an open-source project, see the danger in uncensored AI, the EU Software Liability Directives are an absolute non-starter. This includes liability for all software as well as for AI outputs, which is not acceptable to us. Unfortunately, we must now go down this path and prepare for December 2026.
+
+December 8, 2023, the European institutions reached a provisional political agreement on the world's first comprehensive law on artificial intelligence: the new AI Act.
 
 
-The EU AI act applies only to areas within EU law and provides **exemptions** such as for systems used **exclusively for military** and defence as well as for research purposes.
 
- 
+#### EU AI Act 
+
 
 8 December 2023, the European institutions reached provisional political agreement on the world's first comprehensive law on artificial intelligence: the new AI Act.
 
- 
-
 This follows a trialogue composed of the EU Commission, Council and Parliament.
 
- 
 
 While this has been in negotiation in Europe for many years, last-minute debates regarding the regulation of foundational models and potential disagreements on whether the legislation would hamper innovation too much meant that last-minute agreement was required.
 
- 
 
 **However, political agreement has been reached.** 
 
