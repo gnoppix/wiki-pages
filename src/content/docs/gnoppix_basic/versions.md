@@ -14,10 +14,10 @@ Next release is 6.5-Beta1 on 19 September 25
 ### The latest XFCE Desktop is: 4.20
 Next release : not defined now
 
-### The latest KDE Beta Desktop is: 6.4 Beta2
+### The latest KDE Beta Desktop is: 6.5 Beta1
 ### The latest Gnome Beta Desktop is: n/a
 
-### The latest Gnome Desktop is: 48.3
+### The latest Gnome Desktop is: 49.0
 Next release is N/A 
 
 
