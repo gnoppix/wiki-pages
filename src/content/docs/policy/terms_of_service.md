@@ -4,7 +4,7 @@ title: Gnoppix Terms of Service
 
 ## 1. Scope of the Terms of Service
 
-Effective Date: [25.7.2023]
+Effective Date: [25.7.2025]
 
 [cite_start]These Terms of Service ("Terms") govern your access to and use of the Gnoppix platform and associated services, including the forums, API, AI Copilot, bug reporting tool, and other collaborative tools (collectively, the "Services")[cite: 1]. [cite_start]By accessing or using the Services, you agree to be bound by these Terms[cite: 2].
 
@@ -27,7 +27,7 @@ Effective Date: [25.7.2023]
 
 ## 2. Geographic and Residency Restrictions
 
-[cite_start]This service is explicitly unavailable to residents of the European Union (EU), the European Economic Area (EEA), or the United Kingdom (UK)[cite: 11]. [cite_start]The service is not intended for the EU market, and any use by residents of these jurisdictions is a direct violation of this agreement[cite: 12].
+[cite_start]The services are intended for use by +18 adults only. Furthermore, the service is explicitly unavailable to residents of the European Union (EU), the European Economic Area (EEA), or the United Kingdom (UK)[cite: 11]. [cite_start]The service is not intended for the EU market, and any use by residents of these jurisdictions is a direct violation of this agreement[cite: 12].
 
 ### 2.1. User Declaration of Non-EU Residency
 
