@@ -53,7 +53,7 @@ file
 /etc/apt/sources.list.d/debian.sources
 ```
 
-
+```sh
 Types: deb
 URIs: http://deb.debian.org/debian
 Suites: trixie
@@ -80,25 +80,7 @@ URIs: https://deb.debian.org/debian/
 Suites: trixie-proposed-updates
 Components: main contrib non-free non-free-firmware
 Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
-
-
-
-
-```sh
-file
-/etc/apt/sources.list.d/debian.sources
 ```
-
-```sh
-Types: deb
-URIs: http://archive.gnoppix.com/
-Suites: community
-Components: main
-Signed-By: /etc/apt/trusted.gpg.d/gnoppix.gpg
-```
-
-
-
 
 
 Import Gnoppix Repo Key
