@@ -26,11 +26,67 @@ With network access, you should have the following entry present in /etc/apt/sou
 
 ### Gnoppix 25 XFCE/KDE ALL VERSION  
 
+#### Gnoppix repo
+
 Make sure you have the following repo enabed to get all enhancements and fixes.
 
 ```sh
 file
 /etc/apt/sources.list.d/gnoppix.sources
+```
+
+
+```sh
+Types: deb
+URIs: http://archive.gnoppix.com/
+Suites: community
+Components: main
+Signed-By: /etc/apt/trusted.gpg.d/gnoppix.gpg
+```
+
+
+#### Debian Repo 
+
+
+```sh
+file
+/etc/apt/sources.list.d/debian.sources
+```
+
+
+Types: deb
+URIs: http://deb.debian.org/debian
+Suites: trixie
+Components: main contrib non-free non-free-firmware
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
+
+Types: deb
+URIs: http://security.debian.org/debian-security
+Suites: trixie-security
+Components: main contrib non-free non-free-firmware
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
+
+
+# Modernized from /etc/apt/sources.list
+Types: deb
+URIs: https://deb.debian.org/debian/
+Suites: trixie-updates
+Components: main contrib non-free non-free-firmware
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
+
+# Modernized from /etc/apt/sources.list
+Types: deb
+URIs: https://deb.debian.org/debian/
+Suites: trixie-proposed-updates
+Components: main contrib non-free non-free-firmware
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
+
+
+
+
+```sh
+file
+/etc/apt/sources.list.d/debian.sources
 ```
 
 ```sh
@@ -40,6 +96,9 @@ Suites: community
 Components: main
 Signed-By: /etc/apt/trusted.gpg.d/gnoppix.gpg
 ```
+
+
+
 
 
 Import Gnoppix Repo Key
