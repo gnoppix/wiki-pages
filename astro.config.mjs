@@ -215,6 +215,13 @@ export default defineConfig({
 
 
             {
+              label: 'K-ubuntu',
+              link: 'community/kubuntu',
+            },
+
+
+
+            {
               label: 'AI Legal issues?',
               link: 'community/cp',
             },

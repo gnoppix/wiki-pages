@@ -124,3 +124,4 @@ If you have firewall rules in place on your cloud server, be aware that any conn
 
 For more granular control over your anonymity, consider using the Tor Browser instead. It routes only your web traffic through the Tor network, leaving other applications unaffected and potentially unaffected by firewalls. Be clear the Torbrwoser do not use crypted DNS to resolve normal IP. The tor browser only handle DNS requests for its own .onion DomainNames. All other goes unencrypted to your ISP. 
 
+
