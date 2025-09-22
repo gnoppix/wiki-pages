@@ -3,6 +3,8 @@ title: Gnoppix Community
 description: The Story Behind the Name Kubuntu 
 ---
 
+#### One of the questions I get asked most often is: why Kubuntu?
+
 One of the most prominent examples of KDE's naming influence spilling over into the broader Linux world is Kubuntu, a popular KDE-flavored variant of Ubuntu. To understand its origin, we turn to Andreas Mueller, the founder of Kubuntu. In a candid reflection, Mueller recounts how his brief stint at Canonical in 2005 led to the creation of this distribution and how KDE's "K" obsession played a pivotal role. 
 
 Mueller was initially hired by Canonical, Ubuntu's parent company, on a six-month contract to integrate the Gnoppix LiveCD (yes our project) into Ubuntu's ecosystem. Gnoppix, known for its ease of use and hardware detection, was a perfect fit for enhancing Ubuntu's live session capabilities. But the implementation went faster than expected, leaving Mueller with several months remaining on his contract. 
