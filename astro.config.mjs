@@ -345,6 +345,13 @@ export default defineConfig({
               link: 'features/tor-gui',
             },
 
+           {
+              label: 'Gnoppix Tor Bridge',
+              link: 'features/tor-bridge',
+            },  
+
+
+
             {
               label: 'DNS over https (DOH)',
               link: 'features/doh',

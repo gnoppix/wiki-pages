@@ -1,0 +1,153 @@
+---
+title: Gnoppix Web Privacy      
+description: Gnoppix Tor Bridges   
+---
+
+import ImageComponent from '~/components/image-component.astro';
+import MultipleImageComponent from '~/components/multiple-images-component.astro';
+
+------
+
+### Bypassing Censorship: Understanding Tor Bridges 🌉
+
+The Tor network is the world's most robust system for anonymous communication, routing traffic through thousands of relays to mask a user's location and activity. However, in regions with heavy internet censorship, governments and ISPs can detect and block connections to these publicly listed Tor entry points (or **guards**).
+
+This is where **Tor Bridges** come in.
+
+---
+
+### What is a Tor Bridge?
+
+A Tor bridge is simply a **secret Tor relay**. Unlike the vast majority of Tor relays, the bridge's IP address is **not published** in the public Tor directory. This simple act of secrecy makes it a vital tool for circumventing state-level network blocking.
+
+Think of the standard Tor network as a city with well-marked main entrances (public relays). If the government blocks those entrances, no one gets in. A bridge is like a **private, unmarked side road** that still leads into the city. A censored user can connect to this hidden entry point, and once inside the Tor network, their traffic is anonymized as usual.
+
+
+<br />
+
+<ImageComponent imgsrc={import('~/assets/images/tor-bridge.jpg')} />
+
+---
+
+
+### How Bridges Work and Why They are Essential
+
+Bridges address the central vulnerability of the public Tor network: its reliance on an open, verifiable list of nodes.
+
+### 1. The Connection Process
+
+For a user in a censored country:
+
+1.  The user first obtains the private address of one or more bridges (usually through a dedicated website, email, or social media).
+2.  The user configures their Tor client to use this specific bridge IP as their first hop.
+3.  The bridge receives the connection and then forwards the traffic into the regular, unblocked Tor network.
+
+### 2. Types of Bridges
+
+Tor offers different types of bridges designed to evade various blocking methods:
+
+* **Standard Bridges:** These are hidden relays. They are effective against basic IP-address blocking.
+* **Obfs4 Bridges:** These use an advanced obfuscation protocol (**obfuscation** means hiding the true nature of the traffic). Obfs4 makes the Tor connection look like random, unstructured traffic to deep packet inspection (DPI) censors. This is the **most common and highly recommended** bridge type for users facing sophisticated blocking.
+* **Snowflake Bridges:** These rely on a network of volunteers running a browser extension. When a user needs to connect, their traffic is proxied through a temporary, rotating **peer-to-peer connection** via a volunteer's browser, making the connection highly ephemeral and difficult to block. 
+
+By leveraging these hidden, non-listed entry points, Tor bridges ensure that millions of people worldwide can maintain their right to privacy and free access to information.
+
+
+### 3. Features of Bridges
+
+- Avoid Tor blocking and Censorship
+- Extra level of safety and confidentiality.
+- To avoid Tor fingerprinting and traffic profiling.
+- Access Tor from restricted network 
+
+
+### 4. How do bridges work in Tor Browser?
+
+Tor bridges are meant to integrate your Tor connection with normal web traffic. A number of methods are employed in this regard including replication of web traffic dynamics, disguising data, and distributing entry points cleverly. You can, thus, hide the fact that the traffic is originating from Tor by making the bridges appear as if they are ordinary websites. Through the use of bridges, you will be able to stay anonymous, especially in areas where the internet is censored. However, this comes in handy for activists, journalists, etc., who have a need to share vital information while remaining anonymous.
+
+### 5. Types of Bridges
+
+- Obfs4 (Built-in): Obfs4 bridges ensure that Tor traffic is indistinguishable and random data. This obfuscation trick ensures that no one notices the way you use Tor. Nevertheless, one should bear in mind that Obfs4 might not work in the regions with the advanced and strict censoring tactics.
+- Snowflake: Snowflake bridges are novel in terms of anonymity. Snowflake proxies direct your connection path towards you appearing like making a video call or any other related services. The guise is smart enough, because it looks like normal video or voice traffic, thus bypassing detection and censorship.
+- Meek-Azure: In this instance, Meek bridges are powered by the Microsoft Azure cloud infrastructure making your connection appear like it’s on the Microsoft website and not merely using Tor. In extremely censored areas, this technique is effective. Nevertheless, Meek-Azure bridges are generally sluggish because of the resource consuming Cloud services they depend upon.
+
+
+### 6. Our Approach
+
+The standard approach for typical Tor Bridges is to publish their ports and information directly on their website. However, this level of transparency is a risk when facing automated surveillance.
+
+To enhance operational security, we do it a bit differently. We deliberately avoid listing bridge information publicly. Instead, a user must manually request the bridge information through a dedicated, verifiable channel. This manual step prevents bots, AI crawlers, and bulk scanners from grabbing and blocking our bridge IPs immediately upon deployment, ensuring they remain available for those who truly need them. At least we're making it as hard as possible to get detected and blocked. 
+
+
+### What is the differenece to gnoppixctl application
+
+We've added an extra level of safety and confidentiality. see Point **What is a Tor Bridge** When you start gnoppixctl you go directly to an 'entry point' while using a bridge, theoretically only we know your real IP (if you're using our bridge). 
+  
+:::note
+Make also always sure you use Gnoppix DoH since the requests on DNS are normally **NOT encrypted**. 
+:::
+
+Isn't that overkill and expensive? Yes, it is. But in countries with heavy censorship, you're really happy services like this exist. In some areas, accessing the 'free' internet is like a death wish. That's why we have our supporters who understand the value of the service.
+
+We're starting the service end of September 2025, we monitor traffic which is connected to internet on a 2GBit/Sec. In case you get a connection refused or it is not working properly we've changed to another hosts. in general it takes 4-8 month until a IP is listed. We just switch IP's. For you that means get new data. 
+
+### 7. If you're from heavily censored countries,
+
+
+A [feeback](mailto:support@gnoppix.atlassian.net) would be nice. 
+
+
+### 8. How to setup it? 
+
+a.) Imagined you already have a installed Tor Brwoser. 
+b.) A internet connection.  
+c.) "The string".
+d.) A working email, this can be also a temp email. 
+
+
+
+
+<br />
+
+<ImageComponent imgsrc={import('~/assets/images/tor_setup.png')} />
+
+
+1.) enter in your torbrowser url -> about:preferences#connection or when you click to setting, than 2.) 
+2.) click on the left menu 'Connections' 
+4.) optional you can autoconnect everytime the brwoser to the bridge.
+3.) insert "The string" see next picture.
+
+
+<br />
+
+<ImageComponent imgsrc={import('~/assets/images/tor_setup.png')} />
+
+
+
+Click on "Add new Bridges" 
+
+
+<br />
+
+<ImageComponent imgsrc={import('~/assets/images/tor_setup2.png')} />
+
+
+Enter "The String" and press Next 
+
+
+<br />
+
+<ImageComponent imgsrc={import('~/assets/images/tor_setup3.png')} />
+
+
+You can check if you're connected to the tor on the top
+
+<br />
+
+<ImageComponent imgsrc={import('~/assets/images/tor_setup4.png')} />
+
+
+And now here is the link to get the string  
+
+[The String](https://the-string.gnoppix.com)
+
