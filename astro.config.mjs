@@ -347,7 +347,7 @@ export default defineConfig({
 
            {
               label: 'Gnoppix Tor Bridge',
-              link: 'features/tor-bridge',
+              link: 'features/tor-bridges',
             },  
 
 
