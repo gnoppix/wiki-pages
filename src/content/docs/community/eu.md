@@ -1,11 +1,15 @@
 ---
 title: Gnoppix Community 
-description: Ways to support us
+description: EU is on the wrong path 
 ---
 
-### There are are 2 reasons:  
+For a multi-trillion dollar corporation, this effort is understandable; there is a lot to lose. Unfortunately, as a very small open-source project, we are unable to do this, or rather, it directly challenges our belief in our fundamental human right to privacy.
 
-* [EU Liability Software Directives - Produkthaftungsrichtlinie](https://wiki.gnoppix.org/community/haftung) 
+### There are are muliple reasons:  
+
+* [EU Liability Software Directives - Produkthaftungsrichtlinie](https://wiki.gnoppix.org/community/haftung). 
+* EU so-called Chat-Control which undermine end-to-end encryption (E2EE) and we never give anyone access or backdoors to our services.
+* EU DSA - We just have not the manpower and money regulate for the EU our forum.
 * EU AI ACT - as follow
 
 

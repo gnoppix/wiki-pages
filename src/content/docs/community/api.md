@@ -13,4 +13,5 @@ As a Gnoppix Member, you can log in to see your daily contingent of 1000 free AP
 
 I'm using AI as well; my average 'costs' are around $2 per month.
 
+As member you can control your access here: -> https://landing.gnoppix.com/
  
