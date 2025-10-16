@@ -378,7 +378,7 @@ export default defineConfig({
             },
 
             {
-              label: 'AI Copilot ',
+              label: 'AI PlayGround',
               link: 'features/copilot',
             },
 
