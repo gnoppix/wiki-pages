@@ -280,7 +280,7 @@ export default defineConfig({
 
 
             {
-              label: 'Copilot',
+              label: 'AI PlayGround',
               link: 'community/pilot',
             },
 
